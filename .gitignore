@@ -10,3 +10,10 @@ build/
 project.xcworkspace/
 xcuserdata/
 .xcodeproj/xcuserdata/stamaimer.xcuserdatad
+
+*.xcodeproj/*.pbxuser
+*.xcodeproj/*.perspectivev3
+*.xcodeproj/xcuserdata
+fmdb.xcodeproj/*.mode1v3
+*.xcodeproj/project.xcworkspace/xcuserdata/
+fmdb.xcodeproj/project.xcworkspace
