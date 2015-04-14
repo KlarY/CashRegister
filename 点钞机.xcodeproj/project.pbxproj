@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		546431041AD55DFF000486B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 546431031AD55DFF000486B0 /* main.m */; };
+		546431071AD55DFF000486B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 546431061AD55DFF000486B0 /* AppDelegate.m */; };
+		5464310D1AD55DFF000486B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5464310B1AD55DFF000486B0 /* Main.storyboard */; };
+		5464310F1AD55DFF000486B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5464310E1AD55DFF000486B0 /* Images.xcassets */; };
+		546431121AD55DFF000486B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 546431101AD55DFF000486B0 /* LaunchScreen.xib */; };
+		5464311E1AD55DFF000486B0 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5464311D1AD55DFF000486B0 /* ___Tests.m */; };
+		5464312B1AD61D88000486B0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5464312A1AD61D88000486B0 /* MainViewController.m */; };
+		5464313A1AD63CB1000486B0 /* IonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 546431361AD63CB1000486B0 /* IonIcons.m */; };
+		5464313B1AD63CB1000486B0 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 546431371AD63CB1000486B0 /* ionicons.ttf */; };
+		5464313C1AD63CB1000486B0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 546431381AD63CB1000486B0 /* LICENSE */; };
+		5464313D1AD63CB1000486B0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 546431391AD63CB1000486B0 /* README.md */; };
+		5464314F1AD648D0000486B0 /* JSDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5464314D1AD648D0000486B0 /* JSDropDownMenu.m */; };
+		5487B9931ADCC64E003F1850 /* BlueToothController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5487B9921ADCC64E003F1850 /* BlueToothController.m */; };
+		5487B9A01ADCD84A003F1850 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5487B9961ADCD84A003F1850 /* FMDatabase.m */; };
+		5487B9A11ADCD84A003F1850 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5487B9981ADCD84A003F1850 /* FMDatabaseAdditions.m */; };
+		5487B9A21ADCD84A003F1850 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5487B99A1ADCD84A003F1850 /* FMDatabasePool.m */; };
+		5487B9A31ADCD84A003F1850 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5487B99C1ADCD84A003F1850 /* FMDatabaseQueue.m */; };
+		5487B9A41ADCD84A003F1850 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5487B99F1ADCD84A003F1850 /* FMResultSet.m */; };
+		5487B9A91ADCDBEE003F1850 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5487B9A81ADCDBEE003F1850 /* libsqlite3.0.dylib */; };
+		54E807281AD79C2B00B5ED14 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E807271AD79C2B00B5ED14 /* SetViewController.m */; };
+		54E8073B1AD7CA7B00B5ED14 /* InfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E8073A1AD7CA7B00B5ED14 /* InfoTableViewController.m */; };
+		54E8073F1AD7EE5100B5ED14 /* NALLabelsMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E8073E1AD7EE5100B5ED14 /* NALLabelsMatrix.m */; };
+		54E807421AD8209F00B5ED14 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E807411AD8209F00B5ED14 /* SearchViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		546431181AD55DFF000486B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 546430F61AD55DFF000486B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 546430FD1AD55DFF000486B0;
+			remoteInfo = "点钞机";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		546430FE1AD55DFF000486B0 /* 点钞机.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "点钞机.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		546431021AD55DFF000486B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546431031AD55DFF000486B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		546431051AD55DFF000486B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		546431061AD55DFF000486B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5464310C1AD55DFF000486B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5464310E1AD55DFF000486B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		546431111AD55DFF000486B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		546431171AD55DFF000486B0 /* 点钞机Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "点钞机Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5464311C1AD55DFF000486B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5464311D1AD55DFF000486B0 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		546431291AD61D88000486B0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5464312A1AD61D88000486B0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		546431341AD63CB1000486B0 /* ionicons-codes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ionicons-codes.h"; sourceTree = "<group>"; };
+		546431351AD63CB1000486B0 /* IonIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IonIcons.h; sourceTree = "<group>"; };
+		546431361AD63CB1000486B0 /* IonIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IonIcons.m; sourceTree = "<group>"; };
+		546431371AD63CB1000486B0 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		546431381AD63CB1000486B0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		546431391AD63CB1000486B0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5464314C1AD648D0000486B0 /* JSDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDropDownMenu.h; sourceTree = "<group>"; };
+		5464314D1AD648D0000486B0 /* JSDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDropDownMenu.m; sourceTree = "<group>"; };
+		5487B9911ADCC64E003F1850 /* BlueToothController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothController.h; sourceTree = "<group>"; };
+		5487B9921ADCC64E003F1850 /* BlueToothController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueToothController.m; sourceTree = "<group>"; };
+		5487B9951ADCD84A003F1850 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		5487B9961ADCD84A003F1850 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		5487B9971ADCD84A003F1850 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		5487B9981ADCD84A003F1850 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		5487B9991ADCD84A003F1850 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		5487B99A1ADCD84A003F1850 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		5487B99B1ADCD84A003F1850 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		5487B99C1ADCD84A003F1850 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		5487B99D1ADCD84A003F1850 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		5487B99E1ADCD84A003F1850 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		5487B99F1ADCD84A003F1850 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		5487B9A81ADCDBEE003F1850 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		54E807261AD79C2B00B5ED14 /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		54E807271AD79C2B00B5ED14 /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		54E807391AD7CA7B00B5ED14 /* InfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTableViewController.h; sourceTree = "<group>"; };
+		54E8073A1AD7CA7B00B5ED14 /* InfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewController.m; sourceTree = "<group>"; };
+		54E8073D1AD7EE5100B5ED14 /* NALLabelsMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NALLabelsMatrix.h; sourceTree = "<group>"; };
+		54E8073E1AD7EE5100B5ED14 /* NALLabelsMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NALLabelsMatrix.m; sourceTree = "<group>"; };
+		54E807401AD8209F00B5ED14 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		54E807411AD8209F00B5ED14 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		546430FB1AD55DFF000486B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5487B9A91ADCDBEE003F1850 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546431141AD55DFF000486B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		546430F51AD55DFF000486B0 = {
+			isa = PBXGroup;
+			children = (
+				5487B9A81ADCDBEE003F1850 /* libsqlite3.0.dylib */,
+				546431001AD55DFF000486B0 /* 点钞机 */,
+				5464311A1AD55DFF000486B0 /* 点钞机Tests */,
+				546430FF1AD55DFF000486B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		546430FF1AD55DFF000486B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				546430FE1AD55DFF000486B0 /* 点钞机.app */,
+				546431171AD55DFF000486B0 /* 点钞机Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		546431001AD55DFF000486B0 /* 点钞机 */ = {
+			isa = PBXGroup;
+			children = (
+				5487B9941ADCD84A003F1850 /* fmdb */,
+				54E8073C1AD7EE5100B5ED14 /* NALLabelsMatrix */,
+				5464314A1AD648D0000486B0 /* JSDropDownMenu */,
+				546431331AD63CB1000486B0 /* ionicons */,
+				546431051AD55DFF000486B0 /* AppDelegate.h */,
+				546431061AD55DFF000486B0 /* AppDelegate.m */,
+				546431291AD61D88000486B0 /* MainViewController.h */,
+				5464312A1AD61D88000486B0 /* MainViewController.m */,
+				54E807261AD79C2B00B5ED14 /* SetViewController.h */,
+				54E807271AD79C2B00B5ED14 /* SetViewController.m */,
+				54E807391AD7CA7B00B5ED14 /* InfoTableViewController.h */,
+				54E8073A1AD7CA7B00B5ED14 /* InfoTableViewController.m */,
+				5464310B1AD55DFF000486B0 /* Main.storyboard */,
+				54E807401AD8209F00B5ED14 /* SearchViewController.h */,
+				54E807411AD8209F00B5ED14 /* SearchViewController.m */,
+				5487B9911ADCC64E003F1850 /* BlueToothController.h */,
+				5487B9921ADCC64E003F1850 /* BlueToothController.m */,
+				5464310E1AD55DFF000486B0 /* Images.xcassets */,
+				546431101AD55DFF000486B0 /* LaunchScreen.xib */,
+				546431011AD55DFF000486B0 /* Supporting Files */,
+			);
+			path = "点钞机";
+			sourceTree = "<group>";
+		};
+		546431011AD55DFF000486B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				546431021AD55DFF000486B0 /* Info.plist */,
+				546431031AD55DFF000486B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5464311A1AD55DFF000486B0 /* 点钞机Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5464311D1AD55DFF000486B0 /* ___Tests.m */,
+				5464311B1AD55DFF000486B0 /* Supporting Files */,
+			);
+			path = "点钞机Tests";
+			sourceTree = "<group>";
+		};
+		5464311B1AD55DFF000486B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5464311C1AD55DFF000486B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		546431331AD63CB1000486B0 /* ionicons */ = {
+			isa = PBXGroup;
+			children = (
+				546431341AD63CB1000486B0 /* ionicons-codes.h */,
+				546431351AD63CB1000486B0 /* IonIcons.h */,
+				546431361AD63CB1000486B0 /* IonIcons.m */,
+				546431371AD63CB1000486B0 /* ionicons.ttf */,
+				546431381AD63CB1000486B0 /* LICENSE */,
+				546431391AD63CB1000486B0 /* README.md */,
+			);
+			name = ionicons;
+			path = DropdownMenu/ionicons;
+			sourceTree = "<group>";
+		};
+		5464314A1AD648D0000486B0 /* JSDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				5464314C1AD648D0000486B0 /* JSDropDownMenu.h */,
+				5464314D1AD648D0000486B0 /* JSDropDownMenu.m */,
+			);
+			path = JSDropDownMenu;
+			sourceTree = "<group>";
+		};
+		5487B9941ADCD84A003F1850 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				5487B9951ADCD84A003F1850 /* FMDatabase.h */,
+				5487B9961ADCD84A003F1850 /* FMDatabase.m */,
+				5487B9971ADCD84A003F1850 /* FMDatabaseAdditions.h */,
+				5487B9981ADCD84A003F1850 /* FMDatabaseAdditions.m */,
+				5487B9991ADCD84A003F1850 /* FMDatabasePool.h */,
+				5487B99A1ADCD84A003F1850 /* FMDatabasePool.m */,
+				5487B99B1ADCD84A003F1850 /* FMDatabaseQueue.h */,
+				5487B99C1ADCD84A003F1850 /* FMDatabaseQueue.m */,
+				5487B99D1ADCD84A003F1850 /* FMDB.h */,
+				5487B99E1ADCD84A003F1850 /* FMResultSet.h */,
+				5487B99F1ADCD84A003F1850 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		54E8073C1AD7EE5100B5ED14 /* NALLabelsMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				54E8073D1AD7EE5100B5ED14 /* NALLabelsMatrix.h */,
+				54E8073E1AD7EE5100B5ED14 /* NALLabelsMatrix.m */,
+			);
+			path = NALLabelsMatrix;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		546430FD1AD55DFF000486B0 /* 点钞机 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546431211AD55DFF000486B0 /* Build configuration list for PBXNativeTarget "点钞机" */;
+			buildPhases = (
+				546430FA1AD55DFF000486B0 /* Sources */,
+				546430FB1AD55DFF000486B0 /* Frameworks */,
+				546430FC1AD55DFF000486B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "点钞机";
+			productName = "点钞机";
+			productReference = 546430FE1AD55DFF000486B0 /* 点钞机.app */;
+			productType = "com.apple.product-type.application";
+		};
+		546431161AD55DFF000486B0 /* 点钞机Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546431241AD55DFF000486B0 /* Build configuration list for PBXNativeTarget "点钞机Tests" */;
+			buildPhases = (
+				546431131AD55DFF000486B0 /* Sources */,
+				546431141AD55DFF000486B0 /* Frameworks */,
+				546431151AD55DFF000486B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				546431191AD55DFF000486B0 /* PBXTargetDependency */,
+			);
+			name = "点钞机Tests";
+			productName = "点钞机Tests";
+			productReference = 546431171AD55DFF000486B0 /* 点钞机Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		546430F61AD55DFF000486B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = WHU;
+				TargetAttributes = {
+					546430FD1AD55DFF000486B0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					546431161AD55DFF000486B0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 546430FD1AD55DFF000486B0;
+					};
+				};
+			};
+			buildConfigurationList = 546430F91AD55DFF000486B0 /* Build configuration list for PBXProject "点钞机" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 546430F51AD55DFF000486B0;
+			productRefGroup = 546430FF1AD55DFF000486B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				546430FD1AD55DFF000486B0 /* 点钞机 */,
+				546431161AD55DFF000486B0 /* 点钞机Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		546430FC1AD55DFF000486B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5464310D1AD55DFF000486B0 /* Main.storyboard in Resources */,
+				546431121AD55DFF000486B0 /* LaunchScreen.xib in Resources */,
+				5464313B1AD63CB1000486B0 /* ionicons.ttf in Resources */,
+				5464310F1AD55DFF000486B0 /* Images.xcassets in Resources */,
+				5464313C1AD63CB1000486B0 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546431151AD55DFF000486B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		546430FA1AD55DFF000486B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E8073B1AD7CA7B00B5ED14 /* InfoTableViewController.m in Sources */,
+				54E8073F1AD7EE5100B5ED14 /* NALLabelsMatrix.m in Sources */,
+				54E807421AD8209F00B5ED14 /* SearchViewController.m in Sources */,
+				5487B9A01ADCD84A003F1850 /* FMDatabase.m in Sources */,
+				546431071AD55DFF000486B0 /* AppDelegate.m in Sources */,
+				5487B9A31ADCD84A003F1850 /* FMDatabaseQueue.m in Sources */,
+				5487B9A41ADCD84A003F1850 /* FMResultSet.m in Sources */,
+				5464313D1AD63CB1000486B0 /* README.md in Sources */,
+				5464312B1AD61D88000486B0 /* MainViewController.m in Sources */,
+				54E807281AD79C2B00B5ED14 /* SetViewController.m in Sources */,
+				5487B9A11ADCD84A003F1850 /* FMDatabaseAdditions.m in Sources */,
+				546431041AD55DFF000486B0 /* main.m in Sources */,
+				5487B9931ADCC64E003F1850 /* BlueToothController.m in Sources */,
+				5487B9A21ADCD84A003F1850 /* FMDatabasePool.m in Sources */,
+				5464314F1AD648D0000486B0 /* JSDropDownMenu.m in Sources */,
+				5464313A1AD63CB1000486B0 /* IonIcons.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546431131AD55DFF000486B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5464311E1AD55DFF000486B0 /* ___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		546431191AD55DFF000486B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 546430FD1AD55DFF000486B0 /* 点钞机 */;
+			targetProxy = 546431181AD55DFF000486B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5464310B1AD55DFF000486B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5464310C1AD55DFF000486B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		546431101AD55DFF000486B0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546431111AD55DFF000486B0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5464311F1AD55DFF000486B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		546431201AD55DFF000486B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		546431221AD55DFF000486B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "点钞机/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		546431231AD55DFF000486B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "点钞机/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		546431251AD55DFF000486B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "点钞机Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/点钞机.app/点钞机";
+			};
+			name = Debug;
+		};
+		546431261AD55DFF000486B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "点钞机Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/点钞机.app/点钞机";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		546430F91AD55DFF000486B0 /* Build configuration list for PBXProject "点钞机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5464311F1AD55DFF000486B0 /* Debug */,
+				546431201AD55DFF000486B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		546431211AD55DFF000486B0 /* Build configuration list for PBXNativeTarget "点钞机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546431221AD55DFF000486B0 /* Debug */,
+				546431231AD55DFF000486B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		546431241AD55DFF000486B0 /* Build configuration list for PBXNativeTarget "点钞机Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546431251AD55DFF000486B0 /* Debug */,
+				546431261AD55DFF000486B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 546430F61AD55DFF000486B0 /* Project object */;
+}
