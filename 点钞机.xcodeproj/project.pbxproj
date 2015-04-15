@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		545416CB1ADE3813000A0F54 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 545416CA1ADE3813000A0F54 /* libsqlite3.dylib */; };
+		545416CC1ADE381B000A0F54 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5487B9A81ADCDBEE003F1850 /* libsqlite3.0.dylib */; };
 		546431041AD55DFF000486B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 546431031AD55DFF000486B0 /* main.m */; };
 		546431071AD55DFF000486B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 546431061AD55DFF000486B0 /* AppDelegate.m */; };
 		5464310D1AD55DFF000486B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5464310B1AD55DFF000486B0 /* Main.storyboard */; };
@@ -25,7 +27,6 @@
 		5487B9A21ADCD84A003F1850 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5487B99A1ADCD84A003F1850 /* FMDatabasePool.m */; };
 		5487B9A31ADCD84A003F1850 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5487B99C1ADCD84A003F1850 /* FMDatabaseQueue.m */; };
 		5487B9A41ADCD84A003F1850 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5487B99F1ADCD84A003F1850 /* FMResultSet.m */; };
-		5487B9A91ADCDBEE003F1850 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5487B9A81ADCDBEE003F1850 /* libsqlite3.0.dylib */; };
 		54E807281AD79C2B00B5ED14 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E807271AD79C2B00B5ED14 /* SetViewController.m */; };
 		54E8073B1AD7CA7B00B5ED14 /* InfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E8073A1AD7CA7B00B5ED14 /* InfoTableViewController.m */; };
 		54E8073F1AD7EE5100B5ED14 /* NALLabelsMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E8073E1AD7EE5100B5ED14 /* NALLabelsMatrix.m */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		545416CA1ADE3813000A0F54 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		546430FE1AD55DFF000486B0 /* 点钞机.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "点钞机.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		546431021AD55DFF000486B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		546431031AD55DFF000486B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -93,7 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5487B9A91ADCDBEE003F1850 /* libsqlite3.0.dylib in Frameworks */,
+				545416CC1ADE381B000A0F54 /* libsqlite3.0.dylib in Frameworks */,
+				545416CB1ADE3813000A0F54 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +113,7 @@
 		546430F51AD55DFF000486B0 = {
 			isa = PBXGroup;
 			children = (
+				545416CA1ADE3813000A0F54 /* libsqlite3.dylib */,
 				5487B9A81ADCDBEE003F1850 /* libsqlite3.0.dylib */,
 				546431001AD55DFF000486B0 /* 点钞机 */,
 				5464311A1AD55DFF000486B0 /* 点钞机Tests */,
@@ -469,7 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "点钞机/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -481,7 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "点钞机/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
