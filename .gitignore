@@ -7,7 +7,7 @@ build/
 *.perspectivev3
 project.xcworkspace/
 xcuserdata/
-.xcodeproj/xcuserdata/stamaimer.xcuserdatad
+.xcodeproj/xcuserdata/stamaimer.xcuserdatad/
 *.xcodeproj/*.pbxuser
 *.xcodeproj/*.perspectivev3
 *.xcodeproj/xcuserdata
